@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.sidenav{
+	background:  #003366;
+	height: 100%;
+	width: 330px;
+	padding: 20px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0; 
+	overflow: hidden;
+}
+.side-navbar{
+	 margin-top: 50px;
+}
+.side-navbar a{
+    display: list-item;
+    padding: 10px 70px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.side-navbar a:hover{
+    color: red;
+}
+.left-side img{
+	border-radius: 50%;
+	height: 140px;
+	width: 140px;
+    transform: translate(50%, 25%);
+    margin-bottom: 12px;
+}
+.carousel-inner img{
+	height: 100vh;
+	width: 100%;
+}	
+ 
+
+ /********* About Us Start ********/
+ .aboutus{
+      width: 100%;
+      margin: 0px 1px;
+      position: relative;
+      padding: 80px 0px;
+ }
+ .aboutus:before{
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: .4;
+	z-index: -1;
+	background: linear-gradient( 150deg,  #663300 55%,  #1a1a1a 0%) ;
+}
+  .aboutus h3{
+  	text-align: center;
+  	font-weight: 700;
+  	font-size: 17px;
+  	color: #fff;
+  	padding-top
+  }
+  .aboutus h2{
+  	font-weight:900;
+  	font-size: 25px;
+  	color: #fff;
+  	text-align: center; 
+  	border-bottom: 3px solid #663300;
+  	width: 150px;
+  	justify-content: center;
+  	text-transform: uppercase;
+  	margin: 30px 0;
+
+
+  }
+  .aboutus p{
+  	text-align: justify;
+  	padding: 30px !important;
+  	color: #fff;
+
+  }
+ /*********About Us End *********/
+
+ .Accommodat h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 60px 20px;
+    text-transform: uppercase;
+ }
+ .first-class img{
+  border: 5px solid #000;
+  padding-top: 0px;
+ }
+ .line{
+   color: #333;
+   width: 100px;
+
+ }
+ .Facilitie h2{
+   text-align: center;
+   font-weight: 800;
+    font-size: 25px;
+    padding: 60px 20px;
+   text-transform: uppercase;
+ }
+ .fact{
+  margin-left: 34px;
+ }
+.fact ul li{
+   list-style: none;
+  
+} 
+.Package h2{
+  text-align: center;
+   font-weight: 800;
+    font-size: 25px;
+    padding: 70px 20px;
+   text-transform: uppercase;
+}
+.carousel-item{
+  padding: 0px;
+  display: flex;
+  display: wrap
+}
+.Dining{
+  width: 100%;
+}
+.Dining h2{
+   text-align: center;
+   font-weight: 800;
+    font-size: 25px;
+    padding: 70px 20px;
+   text-transform: uppercase;
+}
+.twopart{
+  background-color: #cccccc;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.twopart img{
+  width: 100%;
+  height: 80%;
+}
+.twopart h3{
+  text-align: center;
+   font-weight: 800;
+    font-size: 25px;
+    padding: 13px;
+   text-transform: uppercase;
+}
+.twopart p{
+  text-align: center;
+  font-size: 19px;
+
+}
+.twopart a .btn{
+   text-align: center;
+}
+
+
+.contact h3{
+  text-align: center;
+  padding: 70px 10px 10px;
+  font-weight: 800;
+  font-size: 25px;
+}
+.contact p{
+  text-align: center;
+  padding: 10px 10px 10px;
+}
+.contact ul li {
+  text-align: center;
+  line-height: 1.8;
+  list-style: none;
+}
+
+
+
+.social-icons ul li{
+  list-style: none;
+  display: inline;
+  padding: 5px;
+}
+.social-icons ul li a i{
+  color: #fff; 
+  text-align: center;
+}
+.social-icons ul li a i:hover{
+  color: #efefef;
+}
